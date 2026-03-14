@@ -1,7 +1,13 @@
 requirements.txt
+
 streamlit
+
 google-generativeai
+
 gnews
+
 pandas
+
 openpyxl
+
 python-dotenv
