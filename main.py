@@ -9,7 +9,7 @@ import io
 
 # 1. 환경 설정 및 API 키 로드
 load_dotenv()
-API_KEY = st.secrets["GEMINI_API_KEY"]
+gemini_api_key = st.secrets["GEMINI_API_KEY"]
 
 # 2. Gemini AI 설정 (사용자님 환경에 최적화된 Gemini 3 Flash 적용)
 if gemini_api_key:
